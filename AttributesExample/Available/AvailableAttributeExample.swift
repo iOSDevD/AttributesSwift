@@ -36,10 +36,5 @@ class AvailableAttributeExample {
     }
     
     
-    @discardableResult
-    func incrementCounterValue(inputCountValue:inout Int) -> Int {
-        return inputCountValue + 1
-    }
-    
     
 }

@@ -34,6 +34,12 @@ class ViewController: UIViewController {
         print("Full Name \(name)")
         
         
+
+    }
+    
+    func discardableAttributeExample() {
+        let attr = DiscardableAttributeExample()
+        
         /*
          * Method retunrs a Int Value , but since it is marked with discardableResult
          * The warning of the unused variable returned by the function will be suppressed
@@ -42,6 +48,7 @@ class ViewController: UIViewController {
         attr.incrementCounterValue(inputCountValue: &counter)
     }
 
+    
     /*
     // MARK: - Navigation
 
